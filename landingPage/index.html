@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="index-page">
+  <!--Navbar-->
+    <header>
+            <div class="navbar">
+                <a href="index.html">HOME</a>
+                <a href="Explore.html">EXPLORE</a>
+                <a href="#footer">CONTACT US</a> 
+                <a href="">LOGIN</a>
+            </div>
+    </header>
+    <!--message-->
+    <section>
+        <div class="msg-container">
+            <div class="msg">
+             <p>IT'S BETTER TO SEE SOMETHING ONCE</p>
+             <P>THAN TO HEAR ABOUT IT THOUSAND TIMES</p>
+            </div> 
+            <div class="msg2">
+                <p>Discover the beauty of <b>India</b>, where every moment is a postcard-worthy memory</p>
+            </div>  
+        </div> 
+    </section>
+
+    <section>
+      <div class="sign-container">
+        <div class="img-container">
+          <img id="airplane" src="airplane.png" height="500px">
+          <button id="sign-btn" onclick="openSignInForm()">SIGN IN</button>
+        </div>  
+      </div>
+    </section>
+
+    <!-- Hidden sign-in form -->
+    <div id="signin-form" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeSignInForm()">&times;</span>
+            <form class="form">
+              <label for="username">Username:</label>
+              <input type="text" id="username" name="username" required><br>
+          
+              <label for="password"> Password:</label>
+              <input type="password" id="password" name="password" required><br>
+          
+              <button id="sub-btn" type="submit">Sign In</button>
+          </form>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer id="footer">
+        <div class="footer-container">
+            <div id="f-copyright">
+                <p>&copy; 2024 . All rights reserved.</p>
+            </div>
+            <div class="contact">
+                Connect with us at
+                <div class="social-media">
+                  <a href="#">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                  <a href="#">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                  <a href="#">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                  <a href="#">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </div>
+              </div>
+
+        </div>
+
+        
+    </footer>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
