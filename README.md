@@ -1,5 +1,5 @@
-# CODESOFT
-This repository contains project made by me throughout the codesoft internship in web development .
+# CODSOFT
+This repository contains project made by me throughout the codsoft internship in web development .
 
 Task 1 : Personal Portfolio Project
 It contains short introducion about me , list of skills I have and my resume which we can download .
